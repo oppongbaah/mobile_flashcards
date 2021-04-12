@@ -1,0 +1,41 @@
+# Mobile Flashcards
+React Native Application for mobile fashcards. The application contains decks which also contains cards. Each card is a pair of question and answer. The user can take a quiz on the cards in a particlar deck. Also, the user has the ability to add a card, add a deck and delete a deck. The application has been developed to adapt the styling of both android and ios.
+
+## Getting Started
+This application has been developed and tested to run smothly on android simulators. Kindly follow the instructions below to get started. Enjoy!
+![Home](src/utils/assets/screenshots/home.png "Home")
+![Quiz](src/utils/assets/screenshots/quiz.png "Quiz")
+![AddCard](src/utils/assets/screenshots/addcard.png "Add Card")
+![AddDeck](src/utils/assets/screenshots/addDeck.png "Add Deck")
+![DeleteDeck](src/utils/assets/screenshots/deleteDeck.png "Delete Deck")
+
+
+## Prerequisites
+Before trying out this application, the user must have installed
+1. (Node js)[https://nodejs.org/en/]
+2. (Java ~v11.0.10)[https://www.oracle.com/java/]
+3. (Andoid studio)[https://developer.android.com/studio]
+4. (Set up java and andoid environments)[https://developer.android.com/studio/run/emulator]
+5. A stable version of gradle preferably 6.8.3. Visit (https://www.oracle.com/java/)[https://www.oracle.com/java/] to download the stable version.
+
+## Installation
+- Download the attcahed zip file and extract to your local computer
+
+- Navigate to the root directory of the app and install dependencies using
+```
+npm install or yarn install
+```
+- Launch the metro server using
+```
+npm start
+```
+- Launch the android emulator and install tha app using
+```
+npm run android
+```
+
+## Platform Tested
+The app has been tested on only Android emulators
+
+## Author
+- Isaac Oppong-Baah

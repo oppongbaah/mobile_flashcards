@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var FETCH_DECKS = \"GET_ALL_DECKS\";","map":{"version":3,"sources":["/home/isaac/Documents/React Native/Project/vm/mobile-flashcards/src/store/actions.js"],"names":["FETCH_DECKS"],"mappings":"AAAA,OAAO,IAAMA,WAAW,GAAG,eAApB","sourcesContent":["export const FETCH_DECKS = \"GET_ALL_DECKS\";"]},"metadata":{},"sourceType":"module"}
