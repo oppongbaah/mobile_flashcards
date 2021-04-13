@@ -12,9 +12,15 @@ export function generateUID() {
 }
 
 export function setLocalNotification() {
+
+  let tomorrow = new Date();
+  // tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(24);
+  // tomorrow.setMinutes(1);
+            
   PushNotification.localNotificationSchedule({
     message: "Don't forget to take a quiz today",
-    date: new Date(Date.now() + 60 * 1000 * 3600), // in 24 hours
+    date: tomorrow,
     allowWhileIdle: false,
   });
 }

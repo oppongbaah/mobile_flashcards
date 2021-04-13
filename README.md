@@ -29,6 +29,10 @@ npm install or yarn install
 ```
 npm start
 ```
+**If the metro server fails to start, kindly clear the cache and start it again with**
+```
+npm start -- --reset-caches
+```
 - Launch the android emulator and install tha app using
 ```
 npm run android
