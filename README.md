@@ -12,7 +12,7 @@ This application has been developed and tested to run smothly on android simulat
 
 ## Prerequisites
 Before trying out this application, the user must have installed
-1. (Node js)[https://nodejs.org/en/]
+1. (Node js v14.15.4)[https://nodejs.org/en/]
 2. (Java ~v11.0.10)[https://www.oracle.com/java/]
 3. (Andoid studio)[https://developer.android.com/studio]
 4. (Set up java and andoid environments)[https://developer.android.com/studio/run/emulator]
