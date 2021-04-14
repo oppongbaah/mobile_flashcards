@@ -33,7 +33,7 @@ npm start
 ```
 npm start -- --reset-caches
 ```
-- Launch the android emulator and install tha app using
+- Launch the android emulator and install the app using. If you have problems launching the emulator, launch it sung android studio or genymotion before running the command.
 ```
 npm run android
 ```

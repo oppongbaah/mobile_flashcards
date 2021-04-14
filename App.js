@@ -13,13 +13,13 @@ import AddCard from './src/Components/AddCard';
 import {Provider} from 'react-redux';
 import store from './src/store';
 import {StatusBar} from 'react-native';
-import {setLocalNotification} from './src/utils/helpers';
+// import {setLocalNotification} from './src/utils/helpers';
 
 const App = () => {
 
-  useEffect(() => {
-    setLocalNotification();
-  }, [])
+  // useEffect(() => {
+  //   setLocalNotification();
+  // }, [])
 
   // create a tab navigation
   const Tab = createBottomTabNavigator();
