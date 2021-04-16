@@ -2,7 +2,7 @@
 React Native Application for mobile fashcards. The application contains decks which also contains cards. Each card is a pair of question and answer. The user can take a quiz on the cards in a particlar deck. Also, the user has the ability to add a card, add a deck and delete a deck. The application has been developed to adapt the styling of both android and ios.
 
 ## Getting Started
-This application has been developed and tested to run smothly on android simulators. Kindly follow the instructions below to get started. Enjoy!
+This application has been developed and tested to run smothly on android simulators as well as Expo Go App on android phones and the web. Kindly follow the instructions below to get started. Enjoy!
 ![Home](src/utils/assets/screenshots/home.png "Home")
 ![Quiz](src/utils/assets/screenshots/quiz.png "Quiz")
 ![AddCard](src/utils/assets/screenshots/addcard.png "Add Card")
@@ -41,7 +41,10 @@ npm run android
 ```
 
 ## Platform Tested
-The app has been tested on only Android emulators
+The app has been tested on:
+1. Android emulators
+2. Android Expo Go App
+3. Web
 
 ## Author
 - Isaac Oppong-Baah
