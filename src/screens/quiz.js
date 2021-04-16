@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { StyleSheet, View } from 'react-native';
 import * as colors from '../utils/colors';
 import {Button, Card, CardItem, Icon, Text} from 'native-base';
+import {schedulePushNotification} from '../utils/helpers';
 
 const viewQuiz = (questions, navigation) => {
 
@@ -29,10 +30,14 @@ const viewQuiz = (questions, navigation) => {
     const restartQuiz = () => {
         countAnsweredQuestions(0);
         countCorrectAnswers(0);
+
+        schedulePushNotification();
     }
 
     const backToDeck = () => {
         navigation.navigate("Deck Details");
+
+        schedulePushNotification();
     }
 
     return (

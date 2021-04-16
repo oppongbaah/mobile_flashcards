@@ -25,6 +25,8 @@ Before trying out this application, the user must have installed
 ```
 npm install or yarn install
 ```
+- Either add the local.properties file which specifieds the sdk.dir to the android root directory or set the make sure you have set the ANDROID_SDK_ROOT environment variable which points to the installed sdk
+
 - Launch the metro server using
 ```
 npm start

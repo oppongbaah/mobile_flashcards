@@ -22,6 +22,7 @@
 
   <!-- add a vibrate permission on first boot -->
   <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
   <!-- END OPTIONAL PERMISSIONS -->
   <application
@@ -32,6 +33,10 @@
     android:allowBackup="false"
     android:theme="@style/AppTheme"
   >
+
+    <meta-data
+      android:name="expo.modules.notifications.default_notification_color"
+      android:resource="@color/notification_icon_color" /> <!-- @color/<insert_notification_icon_color_name> -->
 
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
