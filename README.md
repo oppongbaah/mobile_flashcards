@@ -46,5 +46,8 @@ The app has been tested on:
 2. Android Expo Go App
 3. Web
 
+## Notifications
+Notifications for this app can only be sent when using real android devices and not simulators.
+
 ## Author
 - Isaac Oppong-Baah
